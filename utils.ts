@@ -1,3 +1,4 @@
+import pathRegexp from 'path-to-regexp';
 export const getRouteAuthority = (path: string, routeData: Route[]) => {
   let authorities: string[] | string | undefined;
   routeData.forEach((route) => {
